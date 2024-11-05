@@ -23,8 +23,8 @@ end
 puts "#{month}月 #{year}".center(20) 
 puts "日 月 火 水 木 金 土"
 
-start_date = Date.new(year,month)
-end_date = Date.new(year,month,-1)
+start_date = Date.new(year, month)
+end_date = Date.new(year, month, -1)
 
 print "   "  * start_date.cwday 
 
